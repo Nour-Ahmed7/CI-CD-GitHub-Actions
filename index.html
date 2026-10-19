@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Members</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 600px;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 25px;
+            font-size: 24px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        .team-list {
+            list-style-type: none;
+        }
+
+        .team-member {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            margin-bottom: 12px;
+            background-color: #f8f9fa;
+            border-right: 4px solid #3498db;
+            border-radius: 6px;
+            transition: transform 0.2s ease;
+        }
+
+        .team-member:hover {
+            transform: translateX(-5px);
+            background-color: #eef5fb;
+        }
+
+        .member-name {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .member-id {
+            font-size: 15px;
+            background-color: #3498db;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Team Members</h1>
+        <ul class="team-list">
+            <li class="team-member">
+                <span class="member-name">Nour Ahmed Mohamed</span>
+                <span class="member-id">ID: 20242376</span>
+            </li>
+            <li class="team-member">
+                <span class="member-name">Secound member</span>
+                <span class="member-id">ID: 20240000</span>
+            </li>
+            <li class="team-member">
+                <span class="member-name">Third member</span>
+                <span class="member-id">ID: 20240000</span>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
