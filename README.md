@@ -12,7 +12,7 @@ The static webpage (`index.html`) displays the project team members along with t
 | :--- | :--- |
 | **Nour Ahmed Mohamed Sayed Osman** | *20242376* |
 | **Dalia Sami Abdul-Aziz** | *20242116* |
-| *[Team Member 3 Name]* | *[Insert ID]* |
+| **Salma Mohsen Sayed** | *20240237* |
 
 *(Note: Please update the placeholder names and IDs above with your team details).*
 
