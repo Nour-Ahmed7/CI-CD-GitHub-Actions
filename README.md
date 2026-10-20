@@ -14,8 +14,6 @@ The static webpage (`index.html`) displays the project team members along with t
 | **Dalia Sami Abdul-Aziz** | *20242116* |
 | **Salma Mohsen Sayed** | *20240237* |
 
-*(Note: Please update the placeholder names and IDs above with your team details).*
-
 ---
 
 ## ⚙️ Technical Details & Concepts
